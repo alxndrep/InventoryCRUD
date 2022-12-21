@@ -1,0 +1,70 @@
+[01-Feb-2022 22:13:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home6/libreri2/public_html/loginfiles/connectionDB.php on line 3
+[01-Feb-2022 22:13:15 UTC] PHP Stack trace:
+[01-Feb-2022 22:13:15 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:13:15 UTC] PHP   2. require() /home6/libreri2/public_html/loginfiles/loginuserdb.php:3
+[01-Feb-2022 22:13:15 UTC] PHP   3. mysqli->__construct() /home6/libreri2/public_html/loginfiles/connectionDB.php:3
+[01-Feb-2022 22:13:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 7
+[01-Feb-2022 22:13:15 UTC] PHP Stack trace:
+[01-Feb-2022 22:13:15 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:13:15 UTC] PHP   2. mysqli->query() /home6/libreri2/public_html/loginfiles/loginuserdb.php:7
+[01-Feb-2022 22:13:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 9
+[01-Feb-2022 22:13:15 UTC] PHP Stack trace:
+[01-Feb-2022 22:13:15 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:13:15 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 21
+[01-Feb-2022 22:13:15 UTC] PHP Stack trace:
+[01-Feb-2022 22:13:15 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:13:15 UTC] PHP   2. mysqli->close() /home6/libreri2/public_html/loginfiles/loginuserdb.php:21
+[01-Feb-2022 22:19:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'libreri2_admin'@'localhost' to database 'libreri2_libreriadiego' in /home6/libreri2/public_html/loginfiles/connectionDB.php on line 3
+[01-Feb-2022 22:19:19 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:19 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:19 UTC] PHP   2. require() /home6/libreri2/public_html/loginfiles/loginuserdb.php:3
+[01-Feb-2022 22:19:19 UTC] PHP   3. mysqli->__construct() /home6/libreri2/public_html/loginfiles/connectionDB.php:3
+[01-Feb-2022 22:19:19 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 7
+[01-Feb-2022 22:19:19 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:19 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:19 UTC] PHP   2. mysqli->query() /home6/libreri2/public_html/loginfiles/loginuserdb.php:7
+[01-Feb-2022 22:19:19 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 9
+[01-Feb-2022 22:19:19 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:19 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:19 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 21
+[01-Feb-2022 22:19:19 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:19 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:19 UTC] PHP   2. mysqli->close() /home6/libreri2/public_html/loginfiles/loginuserdb.php:21
+[01-Feb-2022 22:19:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'libreri2_admin'@'localhost' to database 'libreri2_libreriadiego' in /home6/libreri2/public_html/loginfiles/connectionDB.php on line 3
+[01-Feb-2022 22:19:29 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:29 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:29 UTC] PHP   2. require() /home6/libreri2/public_html/loginfiles/loginuserdb.php:3
+[01-Feb-2022 22:19:29 UTC] PHP   3. mysqli->__construct() /home6/libreri2/public_html/loginfiles/connectionDB.php:3
+[01-Feb-2022 22:19:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 7
+[01-Feb-2022 22:19:29 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:29 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:29 UTC] PHP   2. mysqli->query() /home6/libreri2/public_html/loginfiles/loginuserdb.php:7
+[01-Feb-2022 22:19:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 9
+[01-Feb-2022 22:19:29 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:29 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:29 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 21
+[01-Feb-2022 22:19:29 UTC] PHP Stack trace:
+[01-Feb-2022 22:19:29 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[01-Feb-2022 22:19:29 UTC] PHP   2. mysqli->close() /home6/libreri2/public_html/loginfiles/loginuserdb.php:21
+[02-Feb-2022 05:20:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'libreri2_admin'@'localhost' to database 'libreri2_libreriadiego' in /home6/libreri2/public_html/loginfiles/connectionDB.php on line 3
+[02-Feb-2022 05:20:43 UTC] PHP Stack trace:
+[02-Feb-2022 05:20:43 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[02-Feb-2022 05:20:43 UTC] PHP   2. require() /home6/libreri2/public_html/loginfiles/loginuserdb.php:3
+[02-Feb-2022 05:20:43 UTC] PHP   3. mysqli->__construct() /home6/libreri2/public_html/loginfiles/connectionDB.php:3
+[02-Feb-2022 05:20:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 7
+[02-Feb-2022 05:20:43 UTC] PHP Stack trace:
+[02-Feb-2022 05:20:43 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[02-Feb-2022 05:20:43 UTC] PHP   2. mysqli->query() /home6/libreri2/public_html/loginfiles/loginuserdb.php:7
+[02-Feb-2022 05:20:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 9
+[02-Feb-2022 05:20:43 UTC] PHP Stack trace:
+[02-Feb-2022 05:20:43 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[02-Feb-2022 05:20:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 21
+[02-Feb-2022 05:20:43 UTC] PHP Stack trace:
+[02-Feb-2022 05:20:43 UTC] PHP   1. {main}() /home6/libreri2/public_html/loginfiles/loginuserdb.php:0
+[02-Feb-2022 05:20:43 UTC] PHP   2. mysqli->close() /home6/libreri2/public_html/loginfiles/loginuserdb.php:21
+[08-Nov-2022 11:30:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home6/libreri2/public_html/loginfiles/connectionDB.php on line 3
+[08-Nov-2022 11:30:33 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home6/libreri2/public_html/loginfiles/loginuserdb.php:7
+Stack trace:
+#0 /home6/libreri2/public_html/loginfiles/loginuserdb.php(7): mysqli->query()
+#1 {main}
+  thrown in /home6/libreri2/public_html/loginfiles/loginuserdb.php on line 7
